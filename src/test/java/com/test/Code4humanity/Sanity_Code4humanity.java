@@ -32,19 +32,19 @@ public class Sanity_Code4humanity {
 			
 			       
 			}
-			//@Parameters("URL")
+			
 			@Test(priority=1)
-			//public void login(@Optional("defaultURL") String URL) throws InterruptedException
+			
 			public void Launch()throws InterruptedException
 			{
-				//driver.get(URL);
-				driver.get("http://code4humanity.humanbrain.in/annotation/analytics/home");
+				
+				driver.get("https://code4humanity.humanbrain.in/viewer/annotation/analytics/home");
 				driver.manage().window().maximize();
 			}
 			@Test(priority=2)
 			public void Home()
 			{
-				String HomeURL="http://code4humanity.humanbrain.in/annotation/analytics/home";
+				String HomeURL="https://code4humanity.humanbrain.in/viewer/annotation/analytics/home";
 				String currentURL = driver.getCurrentUrl();
 		        System.out.println("Home URL: " + currentURL);
 		        Assert.assertEquals(currentURL, HomeURL, "URLs do not match!");
