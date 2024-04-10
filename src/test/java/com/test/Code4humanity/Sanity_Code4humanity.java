@@ -139,7 +139,7 @@ public class Sanity_Code4humanity {
 				        System.out.println("Current URL after clicking on Team: " + currentURL);
 				        
 				        // Define the expected Team URL
-				        String expectedTeamURL = "https://code4humanity.humanbrain.in/annotation/analytics/team";
+				        String expectedTeamURL = "https://code4humanity.humanbrain.in/viewer/annotation/analytics/team";
 				        
 				        // Assert that the current URL matches the expected Team URL
 				        Assert.assertEquals(currentURL, expectedTeamURL, "Team URL is not correct");
@@ -163,7 +163,7 @@ public class Sanity_Code4humanity {
 				        String currentURL = driver.getCurrentUrl();
 				        System.out.println("Current URL after clicking on Datasets: " + currentURL);
 				        
-                        String expecteddatasetsURL = "https://code4humanity.humanbrain.in/annotation/analytics/datasets";
+                        String expecteddatasetsURL = "https://code4humanity.humanbrain.in/viewer/annotation/analytics/datasets";
 				        
 				        // Assert that the current URL matches the expected Team URL
 				        Assert.assertEquals(currentURL, expecteddatasetsURL, "Dataset URL is not correct");
@@ -185,7 +185,7 @@ public class Sanity_Code4humanity {
 				        
 				        // Get the current URL after clicking on the "Competitions" link
 				        String currentURL = driver.getCurrentUrl();
-                        String expectedmodelsURL = "https://code4humanity.humanbrain.in/annotation/analytics/models";
+                        String expectedmodelsURL = "https://code4humanity.humanbrain.in/viewer/annotation/analytics/models";
 				        
 				        // Assert that the current URL matches the expected Team URL
 				        Assert.assertEquals(currentURL, expectedmodelsURL, "Models URL is not correct");
@@ -208,7 +208,7 @@ public class Sanity_Code4humanity {
 				        
 				        // Get the current URL after clicking on the "Competitions" link
 				        String currentURL = driver.getCurrentUrl();
-                        String expectedcodeURL = "https://code4humanity.humanbrain.in/annotation/analytics/code";
+                        String expectedcodeURL = "https://code4humanity.humanbrain.in/viewer/annotation/analytics/code";
 				        
 				        // Assert that the current URL matches the expected Team URL
 				        Assert.assertEquals(currentURL, expectedcodeURL, "Code URL is not correct");
@@ -232,7 +232,7 @@ public class Sanity_Code4humanity {
 				        
 				        // Get the current URL after clicking on the "Competitions" link
 				        String currentURL = driver.getCurrentUrl();
-                        String expectedjobURL = "https://code4humanity.humanbrain.in/annotation/analytics/jobs";
+                        String expectedjobURL = "https://code4humanity.humanbrain.in/viewer/annotation/analytics/jobs";
 				        
 				        // Assert that the current URL matches the expected Team URL
 				        Assert.assertEquals(currentURL, expectedjobURL, "Code URL is not correct");
@@ -255,7 +255,7 @@ public class Sanity_Code4humanity {
 				        
 				        // Get the current URL after clicking on the "Competitions" link
 				        String currentURL = driver.getCurrentUrl();
-                        String expectedcompetitionsURL = "https://code4humanity.humanbrain.in/annotation/analytics/competitions";
+                        String expectedcompetitionsURL = "https://code4humanity.humanbrain.in/viewer/annotation/analytics/competitions";
 				        
 				        // Assert that the current URL matches the expected Team URL
 				        Assert.assertEquals(currentURL, expectedcompetitionsURL, "Code URL is not correct");
